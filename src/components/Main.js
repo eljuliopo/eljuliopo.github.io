@@ -34,16 +34,16 @@ class Main extends React.Component {
           <br/><h4>Diseñador gráfico</h4>
           </h3>
           <br/><h4 className="align-center">Antecedentes</h4>
-          <p>Egresé de la carrera 'Diseño Gráfico Publicitario' en la Universidad Santo Tomás campus Talca, el año 2011. Desde ese entonces mi desempeño como diseñador gráfico ha sido de forma independiente, o free-lance, para distintos medios. </p>
-          <p>Dentro de los trabajos realizados, destaco la gestión de contenidos visuales e infográficos para el periódico penquista <a href="http://www.resumen.cl">Resumen</a> desde el año 2014 en adelante. También vale mencionar el trabajo de imagen para el músico y productor Ricardo Charro Nuñez, alias <a href="https://www.facebook.com/pajaroprovinciano">Pájaro Provinciano</a>, cuya carrera se ha desarrollado en escenarios locales y extranjeros. </p>
-          <p>En el año 2015 se fundó <a href="http://editorialderiva.org">Editorial Deriva</a>, un proyecto autogestionado en el que participo como diseñador gráfico hasta el día de hoy.</p>
+          <p>Egresé de la carrera 'Diseño Gráfico Publicitario' en la Universidad Santo Tomás campus Talca, el año 2011. Desde ese entonces mi desempeño como diseñador gráfico ha sido de forma independiente, free-lance, para distintos medios. </p>
+          <p>Dentro de los trabajos realizados destaco la gestión de contenidos visuales e infográficos para el periódico penquista <a href="http://www.resumen.cl">Resumen</a>, desde el año 2014. Diseño gráfico para el músico y productor Ricardo Charro Nuñez, alias <a href="https://www.facebook.com/pajaroprovinciano">Pájaro Provinciano</a>. Trabajé como diseñador en distintos proyectos SENAME, FONDART, FOSIS, como 'Escuelas de Rock', 'Cultivando Talentos', 'Espacio Dopamina', 'Yoga en tu barrio', 'Taller de Telar Mapuche Tejedoras de Villa Alegre', etc.</p>
+          <p>En el año 2015 me integré como diseñador gráfico y encuadernador en el proyecto político-editorial <a href="http://editorialderiva.org">Deriva</a>.</p>
           <p className="align-center"><a href="src/docs/cv_julio.pdf"><span className="icon fa-file-pdf-o"> Curriculum Vitae para información detallada </span></a></p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="align-center"><span className="icon fa-lightbulb-o"> </span>Portafolio</h2>
-          <p className="align-center">Una línea estética que se puede apreciar en los resultados es el empleo del alto-contraste y la inspiración del street-art. Esta búsqueda en el tiempo, se ha esmerado en encontrar soluciones para una comunicación visual efectiva. A continuación puedes revisar parte del trabajo.  </p>
+          <p className="align-center">Si hubiese que definir una línea estética no podría, pero son mi base creativa el alto-contraste y la inspiración que produce el street-art. Esta búsqueda en el tiempo, se ha esmerado en encontrar soluciones para una comunicación visual efectiva. Puedes revisar parte del trabajo.  </p>
           <h3 className="align-center"><span className="icon fa-pie-chart fa-lg"> </span>Imagen Corporativa </h3>
           <div>
               <Web />
@@ -70,15 +70,15 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
         <h2 className="align-center"><span className="icon fa-cogs"> </span>Skills</h2>
         <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Las habilidades que más me ayudan y permiten generar resultados positivos son:</p>
+          <p>Herramientas para el desempeño:</p>
           <p><b> 🠶 Habilidades comunicativas:</b> Escuchar, opinar y escribir.<br/>
               <b>🠶 Flexibilidad:</b> Adaptación rápida a los cambios.<br/>
               <b>🠶 Trabajo en equipo:</b> Toma de decisiones, capacidad de seguir instrucciones y desempeñar roles.<br/>
           </p>
-          <p>También tengo conocimientos específicos en el uso de softwares relacionados al diseño gráfico. Entre estos, los que más utilizo son la Suite de Adobe (especialmente Photoshop, Illustrator, InDesign, Premiere Pro, After Effects), distintas aplicaciones de la Google Suite (Gmail, Google Drive, Google Docs, Tablas dinámicas, Maps, entre otros.).<br/>
+          <p>Los softwares que utilizo para diseño gráfico son la Suite de Adobe (específicamente Photoshop, Illustrator, InDesign, Premiere Pro, After Effects), distintas aplicaciones de la Google Suite (Gmail, Google Drive, Google Docs, Tablas dinámicas, Maps, entre otros.).<br/>
           </p>
           <span className="image main"><img src={skill1} alt="" /></span>
-          <p>Para el desarrollo de aplicaciones web, utilizo distintos soportes digitales, dependiendo de cada requerimiento. Entre los más utilizados, destaco los siguientes:</p>
+          <p>Para el desarrollo de aplicaciones web utilizo distintos medios open source, dependiendo del requerimiento de cada proyecto. Entre los más utilizados destaco los siguientes:</p>
 
           <span className="image main"><img src={skill2} alt="" /></span>
 
