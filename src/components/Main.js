@@ -35,15 +35,15 @@ class Main extends React.Component {
           </h3>
           <br/><h4 className="align-center">Antecedentes</h4>
           <p>Egresé de la carrera 'Diseño Gráfico Publicitario' en la Universidad Santo Tomás campus Talca, el año 2011. Desde ese entonces mi desempeño como diseñador gráfico ha sido de forma independiente, o free-lance, para distintos medios. </p>
-          <p>Dentro de los trabajos realizados, destaco la gestión de contenidos visuales e infográficos para el periódico penquista <a href="http://www.resumen.cl">Resumen</a> desde el año 2014 en adelante. También vale mencionar el trabajo de imagen para el músico nacional Ricardo Charro Nuñez, alias <a href="https://www.facebook.com/pajaroprovinciano">Pájaro Provinciano</a>, cuya carrera se ha desarrollado en escenarios locales y extranjeros. </p>
-          <p>En el año 2015 se fundó <a href="http://editorialderiva.org">Editorial Deriva</a>, un proyecto autogestionado en el que participo como diseñador gráfico y editor hasta el día de hoy.</p>
+          <p>Dentro de los trabajos realizados, destaco la gestión de contenidos visuales e infográficos para el periódico penquista <a href="http://www.resumen.cl">Resumen</a> desde el año 2014 en adelante. También vale mencionar el trabajo de imagen para el músico y productor Ricardo Charro Nuñez, alias <a href="https://www.facebook.com/pajaroprovinciano">Pájaro Provinciano</a>, cuya carrera se ha desarrollado en escenarios locales y extranjeros. </p>
+          <p>En el año 2015 se fundó <a href="http://editorialderiva.org">Editorial Deriva</a>, un proyecto autogestionado en el que participo como diseñador gráfico hasta el día de hoy.</p>
           <p className="align-center"><a href="src/docs/cv_julio.pdf"><span className="icon fa-file-pdf-o"> Curriculum Vitae para información detallada </span></a></p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="align-center"><span className="icon fa-lightbulb-o"> </span>Portafolio</h2>
-          <p className="align-center">Con algunos años de experiencia, puedo decir que la línea estética que mejor define los resultados es el alto-contraste y la expresión del street-art. Esta línea ha sido la muestra de una búsqueda continua de soluciones para una comunicación social efectiva, siendo la adopción de diversos soportes y plataformas la técnica artística empleada. A continuación puedes revisar parte del trabajo.  </p>
+          <p className="align-center">Una línea estética que se puede apreciar en los resultados es el empleo del alto-contraste y la inspiración del street-art. Esta búsqueda en el tiempo, se ha esmerado en encontrar soluciones para una comunicación visual efectiva. A continuación puedes revisar parte del trabajo.  </p>
           <h3 className="align-center"><span className="icon fa-pie-chart fa-lg"> </span>Imagen Corporativa </h3>
           <div>
               <Web />
