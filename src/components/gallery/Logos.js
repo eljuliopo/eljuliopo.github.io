@@ -3,21 +3,19 @@ import PropTypes from 'prop-types'
 import Swiper from 'react-id-swiper'
 
 
-class Web extends React.Component {
+class Logos extends React.Component {
 
   render() {
 
     const params = {
-      effect: 'cube',
+      effect: 'flip',
       grabCursor: true,
-      cubeEffect: {
-        shadow: true,
-        slideShadows: true,
-        shadowOffset: 20,
-        shadowScale: 0.94
-      },
       pagination: {
         el: '.swiper-pagination'
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
       }
     };
 
@@ -40,9 +38,9 @@ class Web extends React.Component {
   }
 }
 
-Web.propTypes = {
+Logos.propTypes = {
     onOpenArticle: PropTypes.func,
     timeout: PropTypes.bool
 }
 
-export default Web
+export default Logos

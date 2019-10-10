@@ -33,32 +33,24 @@ class Main extends React.Component {
           <h3 className="align-right">Julio díaz pérez
           <br/><h4>Diseñador gráfico</h4>
           </h3>
-          <br/><h4 className="align-center">Antecedentes</h4>
-          <p>Egresé de la carrera 'Diseño Gráfico Publicitario' en la Universidad Santo Tomás campus Talca, el año 2011. Desde ese entonces mi desempeño como diseñador gráfico ha sido de forma independiente, free-lance, para distintos medios. </p>
-          <p>Dentro de los trabajos realizados destaco la gestión de contenidos visuales e infográficos para el periódico penquista <a href="http://www.resumen.cl">Resumen</a>, desde el año 2014. Diseño gráfico para el músico y productor Ricardo Charro Nuñez, alias <a href="https://www.facebook.com/pajaroprovinciano">Pájaro Provinciano</a>. Trabajé como diseñador en proyectos SENAME, FONDART, FOSIS, como 'Escuelas de Rock', 'Cultivando Talentos', 'Espacio Dopamina', 'Yoga en tu barrio', 'Taller de Telar Mapuche Tejedoras de Villa Alegre', entre otros.</p>
-          <p>En el año 2015 me integré como diseñador gráfico y encuadernador en el proyecto político-editorial <a href="http://editorialderiva.org">Deriva</a>.</p>
-          <p className="align-center"><a href="src/docs/cv_julio.pdf"><span className="icon fa-file-pdf-o"> Curriculum Vitae para información detallada </span></a></p>
+          <p>🠶 Diseñador gráfico publicitario. Universidad Santo Tomás campus Talca 2007—2011.</p>
+          <p>🠶 Diseño infográfico y gestión de contenido visual en <a href="http://www.resumen.cl" target="_blank">Resumen.cl</a>. 2014—2018</p>
+          <p>🠶 Diseño gráfico y producción multimedia para el músico y productor Ricardo Charro Nuñez, alias <a href="https://www.facebook.com/pajaroprovinciano" target="_blank">Pájaro Provinciano</a>. 2015—2019</p>
+          <p>🠶 Gestión de diseño en proyectos SENAME, SERCOTEC, FONDART, FOSIS, tales como 'Escuelas de Rock', 'Cultivando Talentos', 'Espacio Dopamina', 'Yoga en tu barrio', 'Taller de Telar Mapuche Tejedoras de Villa Alegre'.</p>
+          <p>🠶 Desde el año 2015 colaborador y diseñador en el proyecto editorial y literario Deriva, <a href="http://editorialderiva.org" target="_blank">editorialderiva.org</a></p>
+          <p>🠶 Miembro y diseñador gráfico en Fundación Comunidad Artística del Maule, fundada el año 2018.  </p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="align-center"><span className="icon fa-lightbulb-o"> </span>Portafolio</h2>
-          <p className="align-center">Si hubiese que definir una línea estética no podría, pero son mi base creativa el alto-contraste y la inspiración que produce el street-art. Esta búsqueda en el tiempo, se ha esmerado en encontrar soluciones para una comunicación visual efectiva. Puedes revisar parte del trabajo.  </p>
-          <h3 className="align-center"><span className="icon fa-pie-chart fa-lg"> </span>Imagen Corporativa </h3>
+          <h2 className="align-center"><span className="icon fa-lightbulb-o"> </span>Trabajos</h2>
+
+
           <div>
-              <Web />
           </div>
             <p></p><br/>
-          <h3 className="align-center"><span className="icon fa-pencil fa-lg"> </span>diseño gráfico </h3>
-
           <div>
           <Dgrafico />
-          </div>
-          <p></p><br/>
-
-
-          <h3 className="align-center"><span className="icon fa-print fa-lg"> </span>producción de impresos </h3>
-          <div>
           <Impresos />
           <Deditorial />
           </div>
@@ -69,12 +61,7 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
         <h2 className="align-center"><span className="icon fa-cogs"> </span>Skills</h2>
-        <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Herramientas para el desempeño:</p>
-          <p><b> 🠶 Habilidades comunicativas:</b> Escuchar, opinar y escribir.<br/>
-              <b>🠶 Flexibilidad:</b> Adaptación rápida a los cambios.<br/>
-              <b>🠶 Trabajo en equipo:</b> Toma de decisiones, capacidad de seguir instrucciones y desempeñar roles.<br/>
-          </p>
+
           <p>Los softwares que utilizo para diseño gráfico son la Suite de Adobe (específicamente Photoshop, Illustrator, InDesign, Premiere Pro, After Effects), distintas aplicaciones de la Google Suite (Gmail, Google Drive, Google Docs, Tablas dinámicas, Maps, entre otros.).<br/>
           </p>
           <span className="image main"><img src={skill1} alt="" /></span>
@@ -90,7 +77,7 @@ class Main extends React.Component {
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="align-center"><span className="icon fa-envelope-o"> </span>Contacto</h2>
           <br />
-          <p className="align-center">Contáctame para consultas, cotizaciones o encargos, completando el siguiente formulario:</p>
+          
           <form method="post" action="https://formspree.io/eljuliopo@gmail.com">
             <div className="field half first">
               <label htmlFor="name">Nombre</label>
